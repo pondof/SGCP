@@ -1,0 +1,24 @@
+# Python
+.venv.nosync/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Run logs (regenerable); keep the folder
+results/logs/*
+!results/logs/.gitkeep
+
+# macOS
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
