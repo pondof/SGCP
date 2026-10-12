@@ -1,0 +1,136 @@
+# format: sgcp_dimacs
+# name: pg_n050_d0.1_c4-7_s3
+# generator: perfectgen
+# graph_class: perfect
+# reference: Şeker, Ekim & Taşkın (2021)
+# density_target: 0.1
+# density: 0.089
+# epsilon: 0.025
+# steer: 3
+# complemented: false
+# attempts: 1
+# ops: {"clique_identification": 2, "substitution": 2, "composition": 2, "disjoint_union": 3, "join": 0, "complement": 0}
+# cluster_min: 4
+# cluster_max: 7
+# graph_seed: 15571934232549493183
+# partition_seed: 3885469109651628670
+p edge 50 109 10
+c 1 16 27 39 50
+c 2 7 17 25 30 38 42 45
+c 3 1 22 24 34 49
+c 4 2 20 23 31 40 43 44
+c 5 6 9 12 18 26 32 37
+c 6 4 15 19 21 33 47
+c 7 10 41 46 48
+c 8 11 14 28 36
+c 9 3 5 13 35
+c 10 8 29
+e 1 11
+e 1 13
+e 1 32
+e 2 4
+e 2 34
+e 3 6
+e 3 30
+e 3 41
+e 3 45
+e 3 47
+e 3 48
+e 4 5
+e 4 8
+e 4 9
+e 4 12
+e 4 13
+e 4 14
+e 4 19
+e 4 20
+e 4 21
+e 4 24
+e 4 26
+e 4 35
+e 4 42
+e 4 43
+e 5 8
+e 5 14
+e 5 20
+e 5 24
+e 5 39
+e 6 48
+e 7 29
+e 7 34
+e 8 20
+e 8 24
+e 8 28
+e 8 39
+e 9 10
+e 9 11
+e 9 32
+e 9 36
+e 9 39
+e 9 40
+e 9 43
+e 10 12
+e 10 13
+e 10 26
+e 10 40
+e 10 43
+e 10 46
+e 11 13
+e 11 17
+e 11 26
+e 11 32
+e 12 39
+e 12 40
+e 12 43
+e 13 32
+e 13 39
+e 13 40
+e 13 43
+e 14 20
+e 14 28
+e 15 18
+e 15 23
+e 15 27
+e 15 31
+e 15 49
+e 16 30
+e 16 41
+e 16 45
+e 16 48
+e 18 23
+e 18 25
+e 18 31
+e 19 21
+e 19 44
+e 20 24
+e 20 42
+e 20 44
+e 22 35
+e 23 25
+e 23 49
+e 24 28
+e 24 39
+e 25 27
+e 25 31
+e 25 37
+e 25 38
+e 25 49
+e 26 32
+e 26 36
+e 26 39
+e 26 40
+e 26 43
+e 29 34
+e 29 44
+e 31 37
+e 32 36
+e 35 39
+e 35 43
+e 38 49
+e 39 42
+e 39 43
+e 40 43
+e 40 46
+e 41 45
+e 45 48
+e 45 50

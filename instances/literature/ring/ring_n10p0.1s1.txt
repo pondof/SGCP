@@ -1,0 +1,23 @@
+# format: sgcp_dimacs
+# name: ring_n10p0.1s1
+# source_set: ring
+# source_file: base-sgcp/instances/ring/ring_n10p0.1s1.txt
+# source_repo: https://github.com/alberto-santini/selective-graph-colouring
+# source_commit: 731f99db29d5d20de9dc83ffada9f418b93100cf
+# reference: Furini, Malaguti & Santini (2018)
+p edge 8 11 4
+c 1 1 2
+c 2 3 4
+c 3 5 6
+c 4 7 8
+e 1 3
+e 1 5
+e 1 7
+e 2 4
+e 2 6
+e 2 8
+e 3 5
+e 4 6
+e 4 8
+e 5 7
+e 6 8

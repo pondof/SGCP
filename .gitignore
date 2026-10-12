@@ -9,10 +9,14 @@ __pycache__/
 results/logs/*
 !results/logs/.gitkeep
 
+# Large instances (regenerable with `make instances` / `make literature-big`)
+instances/large/*
+!instances/large/.gitkeep
+instances/literature/big-random/
+
 # macOS
 .DS_Store
 
-# LaTeX build artifacts
 *.aux
 *.bbl
 *.blg

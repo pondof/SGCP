@@ -1,0 +1,71 @@
+# format: sgcp_dimacs
+# name: nsf_p0.1_s3
+# source_set: nsfnet
+# source_file: base-sgcp/instances/nsfnet/nsf_p0.1_s3.txt
+# source_repo: https://github.com/alberto-santini/selective-graph-colouring
+# source_commit: 731f99db29d5d20de9dc83ffada9f418b93100cf
+# reference: Furini, Malaguti & Santini (2018)
+p edge 29 40 23
+c 1 1 2
+c 2 3
+c 3 4 5
+c 4 6
+c 5 7 8
+c 6 9
+c 7 10
+c 8 11
+c 9 12
+c 10 13
+c 11 14
+c 12 15
+c 13 16 17
+c 14 18
+c 15 19
+c 16 20 21
+c 17 22
+c 18 23
+c 19 24
+c 20 25 26
+c 21 27
+c 22 28
+c 23 29
+e 1 5
+e 1 8
+e 1 15
+e 1 16
+e 2 3
+e 2 4
+e 2 7
+e 2 10
+e 2 29
+e 3 4
+e 4 8
+e 4 17
+e 5 15
+e 5 16
+e 5 19
+e 7 8
+e 7 10
+e 7 17
+e 7 29
+e 8 17
+e 8 22
+e 8 23
+e 11 17
+e 12 13
+e 12 18
+e 13 18
+e 14 17
+e 15 16
+e 16 19
+e 18 22
+e 18 29
+e 20 21
+e 20 23
+e 20 26
+e 21 23
+e 21 25
+e 22 23
+e 22 29
+e 25 26
+e 27 28
